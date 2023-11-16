@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.container{
+  /* định nghĩa virvj sẽ sủ dụng flex */
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap-reverse;
+  flex: 1;
+}
+.box{
+  height: 300px;
+  width: 300px;
+  display: flex;
+}
+.box-1 {
+  background-color: red;
+  flex: 2;
+}
+.box-2 {
+  background-color: yellow;
+  flex: 2;
+}
+.box-3 {
+  background-color: aqua;
+  flex: 2;
+}
+.box4,
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+header{
+  background-color: rgb(231, 89, 37);
+  height: 56px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.list-item{
+  display: flex;
+  gap: 15px;
+}
+.item{
+}
+.item-infor{
+  position: relative;
+}
+.item-infor:hover {
+  display: block;
+}
+.list-option{
+  position: absolute;
+  background-color: black;
+  padding: 8px 16px;
+  width: 200px;
+  border-radius: 4px;
+  right: 0;
+  top: 23px;
+  display: none;}
+.list-option::after{
+  content: "";
+  /* background-color: black */
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid rgb(0, 0, 0);
+  position: absolute;
+  top: -9px;
+  right: 19px ;
+}
+.item-infor:hover .list-option{
+  display: block;
+}
+.option{
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.option:hover {
+  background-color: #d2bbbb;
+}
+/* .triangle{
+  width: 10px;
+  height: 10px;
+  /* background-color: black */
+  /* border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid red;} */ 

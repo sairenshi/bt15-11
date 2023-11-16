@@ -1,0 +1,20 @@
+.search-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 300px;
+}
+.input {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  border: 1px solid #dadada;
+}
+.icon-search{
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+}

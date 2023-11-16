@@ -1,0 +1,23 @@
+1 số kỹ thuật xây dựng layout:
++position
++float
++table
++flex box ----->
++grid
+ -mô hingf flex box
+ +khi sử ụng thuộc tính display: flex thì trục main axios mặc định sẽ nằm ngang và thuộc tính này sẽ đc định nghĩa ở bên trong fle-container (khối cha)
+ +display:flex -> định nghĩa sủ dụng flex và làm cho các item lên cùng 1 hàng
+ +justify-content:( được sử dụng ở flex-container và luôn đi  theo trục main-axis)
+  - flex-start: căn các item sang bên trái (main start)
+  - flex-end: căn các item sang bên phải (main end)
+  -center: căn các item ra giữa
+  -space-around : giãn các item ra xa nhau, kc giữa các item sẽ = nhau và kc 2 item bên ngoài so vs lề sẽ bé hơn
+  -space-between:giàn các item ra xa nhau và nó sẽ cố gắng đưa 2 item bên ngoài ra sát lề
+  -space-evenly: giàn các item ra xa nhau và kc giữa chúng đều nhau
+  -align-items:( được sử dụng ở flex-container và luôn đi  theo trục cross axis khi display:flex)
+  -flex-start
+  -flex-end
+  -center
+  +gap: dùng để dãn đểu các item theo 1 đơn vị nào đó (px,%,...)
+  flex-wrap cho phép các item đc xuống dòng khi chiều dài của nó k đủ
+  +flex ùng để kéo dài diện tích các item dựa vào chỉ số của nó

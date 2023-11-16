@@ -1,0 +1,36 @@
+/* Import font chữ */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap");
+
+/* Import các file */
+@import url(./base/input.css);
+@import url(./layout/header.css);
+@import url(./layout/main-content.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.q-flex {
+  display: flex;
+}
+
+.q-justify-center {
+  justify-content: center;
+}
+.q-justify-between {
+  justify-content: space-between;
+}
